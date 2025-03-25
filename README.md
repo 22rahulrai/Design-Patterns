@@ -1,76 +1,49 @@
-# Design Patterns in C#
+# Design Patterns in C# 🚀  
 
-This repository contains implementations of various design patterns in C#. Each pattern is explained with code examples and use cases.
+A collection of **Creational, Structural, and Behavioral** design patterns implemented in **C#**, with concise explanations and code examples. This repository serves as a handy reference for understanding and applying design patterns in real-world projects.  
 
-## 🏗️ What are Design Patterns?
-Design patterns are best practices used by software developers to solve common problems in software design. They provide a standard approach to solving recurring design issues.
+---
 
-## 📂 Repository Structure
-The repository is structured based on the three main categories of design patterns:
+## 📌 Design Patterns Covered  
 
-📦 Design-Patterns │── 📁 Creational │ ├── FactoryMethod │ ├── AbstractFactory │ ├── Singleton │ ├── Builder │ ├── Prototype │── 📁 Structural │ ├── Adapter │ ├── Bridge │ ├── Composite │ ├── Decorator │ ├── Facade │ ├── Flyweight │ ├── Proxy │── 📁 Behavioral │ ├── ChainOfResponsibility │ ├── Command │ ├── Interpreter │ ├── Iterator │ ├── Mediator │ ├── Memento │ ├── Observer │ ├── State │ ├── Strategy │ ├── TemplateMethod │ ├── Visitor │── 📁 Common │ ├── UtilityClasses │ ├── Interfaces │── README.md
+### ✅ Creational Design Patterns  
+- **Singleton** – Ensures a class has only one instance and provides a global point of access to it.  
+- **Factory** – Creates objects without specifying the exact class of the object to be created.  
+- **Abstract Factory** – Provides an interface for creating families of related or dependent objects without specifying their concrete classes.  
+- **Builder** – Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.  
 
-bash
-Copy
-Edit
+### ✅ Structural Design Patterns  
+- **Adapter** – Allows incompatible interfaces to work together by converting the interface of one class into an interface expected by the clients.  
+- **Bridge** – Decouples an abstraction from its implementation so that the two can vary independently.  
 
-## 🛠️ How to Use
-1. Clone the repository:
+### ✅ Behavioral Design Patterns  
+- **Observer** – Defines a one-to-many dependency between objects, so that when one object changes state, all its dependents are notified and updated automatically.  
+- **Strategy** – Enables selecting an algorithm’s behavior at runtime by defining a family of algorithms and making them interchangeable.  
+
+---
+
+## 🔥 Repository Branches  
+This repository follows a structured branching strategy:  
+
+- `main` – The stable and production-ready branch.  
+- `dev` – The development branch where new changes are merged before moving to `main`.  
+- `creational-singleton` – Implementation of the Singleton pattern.  
+- `creational-factory` – Implementation of the Factory pattern.  
+- `creational-abstract_factory` – Implementation of the Abstract Factory pattern.  
+- `creational-builder` – Implementation of the Builder pattern.  
+- `structural-adapter` – Implementation of the Adapter pattern.  
+- `structural-bridge` – Implementation of the Bridge pattern.  
+- `behavioral-observer` – Implementation of the Observer pattern.  
+- `behavioral-strategy` – Implementation of the Strategy pattern.  
+
+---
+
+## 🚀 Getting Started  
+
+1. **Clone the repository**  
    ```sh
    git clone https://github.com/22rahulrai/Design-Patterns.git
-Open the project in Visual Studio.
 
-Navigate to the desired pattern folder and run the corresponding C# file to see the implementation.
-
-📚 Design Patterns Covered
-Creational Patterns
-Factory Method - Creates objects without specifying the exact class.
-
-Abstract Factory - Provides an interface for creating families of related objects.
-
-Singleton - Ensures a class has only one instance.
-
-Builder - Separates object construction from representation.
-
-Prototype - Creates objects by copying an existing object.
-
-Structural Patterns
-Adapter - Converts one interface into another.
-
-Bridge - Decouples abstraction from implementation.
-
-Composite - Treats individual and composite objects uniformly.
-
-Decorator - Adds behavior to objects dynamically.
-
-Facade - Provides a simplified interface to a complex system.
-
-Flyweight - Reduces memory usage by sharing objects.
-
-Proxy - Controls access to another object.
-
-Behavioral Patterns
-Chain of Responsibility - Passes requests along a chain of handlers.
-
-Command - Encapsulates a request as an object.
-
-Interpreter - Defines a grammar and interprets expressions.
-
-Iterator - Provides a way to access elements sequentially.
-
-Mediator - Reduces dependencies between objects.
-
-Memento - Captures and restores an object's state.
-
-Observer - Defines a dependency between objects.
-
-State - Allows an object to alter its behavior when its state changes.
-
-Strategy - Defines a family of algorithms and makes them interchangeable.
-
-Template Method - Defines the skeleton of an algorithm in a base class.
-
-Visitor - Adds operations to objects without modifying them.
 
 📌 Contribution
 If you would like to contribute:
@@ -89,7 +62,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 🔗 GitHub Repository: [https://github.com/22rahulrai/Design-Patterns]
 
 Happy coding! 🚀
-
-Replace `22rahulrai` with your actual GitHub username and update the repository link at the end.
-
-Would you like any modifications or additional sections? 😊
