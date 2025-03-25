@@ -6,19 +6,26 @@ using System.Threading.Tasks;
 
 namespace Design_Pattern
 {
-    internal class Vehiclefactory
+    //Abstract Factory
+    internal interface Ivehiclefactory
     {
-        public static Ivehicle Getvehicle(string objtype)
-        {
-            switch (objtype.ToLower())
-            {
-                case "bike":
-                    return new Bike();
-                case "car":
-                    return new Car();
-                default:
-                    throw new ArgumentException("Invalid vehicle type.");
-            }
-        }
+        Ivehicle Createvehicle();
     }
+
+
+    //internal class Vehiclefactory
+    //{
+    //    public static Ivehicle Getvehicle(string objtype)
+    //    {
+    //        switch (objtype.ToLower())
+    //        {
+    //            case "bike":
+    //                return new Bike();
+    //            case "car":
+    //                return new Car();
+    //            default:
+    //                throw new ArgumentException("Invalid vehicle type.");
+    //        }
+    //    }
+    //}
 }

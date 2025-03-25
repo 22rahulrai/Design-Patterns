@@ -7,21 +7,11 @@ using System.Threading.Tasks;
 
 namespace Design_Pattern
 {
+    //concrete product-Bike
     internal class Bike : Ivehicle
     {
-        private readonly int wheels;
-
-        public Bike(){
-            this.wheels=2;
-        }
-        public int Numberofwheels()
-        {
-            return this.wheels;
-        }
-
-        public string Vehicletype()
-        {
-            return "Bike";
-        }
+        public int Numberofwheels() => 2;
+        public string Vehicletype() => "Bike";
+        
     }
 }

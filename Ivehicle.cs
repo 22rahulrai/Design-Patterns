@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Pattern
 {
+
     internal interface Ivehicle
     {
         string Vehicletype();

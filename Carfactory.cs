@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Design_Pattern
 {
-    //Concrete Product- Car
-    class Car : Ivehicle
+    // Concrete factory - car factory
+    class Carfactory : Ivehiclefactory
     {
-        public int Numberofwheels() => 4;
-        public string Vehicletype() => "Car";
-        
+        public Ivehicle Createvehicle() => new Car();
     }
 }
